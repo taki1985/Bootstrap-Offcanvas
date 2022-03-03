@@ -352,10 +352,10 @@
             $(this).bsOffcanvas()
 
         $(window).on 'resize', ->
-          $('.navbar-offcanvas.in').each ->
-            $(@).height('').removeClass 'in'
-          $('.offcanvas-toggle').removeClass 'is-open'
-          $('body').removeClass 'offcanvas-stop-scrolling'
+        #   $('.navbar-offcanvas.in').each ->
+        #     $(@).height('').removeClass 'in'
+        #   $('.offcanvas-toggle').removeClass 'is-open'
+        #   $('body').removeClass 'offcanvas-stop-scrolling'
 
         $('.offcanvas-toggle').each ->
             $(this).on 'click', (e) ->
